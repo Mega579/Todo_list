@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><span id="T" data-text="T"></span>
+        <span id="title" data-text="ODO LIST"></span></h1>
+    </header>
+    <div id="border">
+        <i class=" fa-1 fa-regular fa-star fa-beat fa-rotate-270 fa-2xl"></i>
+        <i class= "fa-2 fa-regular fa-star fa-beat fa-rotate-270 fa-2xl"></i>
+        <i class= "fa-4 fa-regular fa-star fa-beat fa-rotate-270 fa-2xl"></i>
+        <i class="fa-3 fa-regular fa-star fa-beat fa-rotate-270 fa-2xl"></i>
+        <i class= "fa-5 fa-regular fa-star fa-beat fa-rotate-270 fa-2xl"></i>
+        <i class= "fa-6 fa-regular fa-star fa-beat fa-rotate-270 fa-2xl"></i>
+    <h1 id="text" data-text="Creat your list here"></h1>
+    <div id="border1">
+        <label><b><i>Manifest your task:</i></b></label>
+        <input id="input">
+        <button id="add" onclick="add()">Add</button>
+    <ul id="list">
+            <li id="list-container">To delete a entire task ↓ Elect this. <br>
+            <button onclick="deleteitem(event)">Delete</button>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
